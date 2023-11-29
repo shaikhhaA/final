@@ -114,7 +114,7 @@ CREATE TABLE `purchase` (
   `customer` varchar(50) NOT NULL,
   `total` double NOT NULL,
   `date_purchase` datetime NOT NULL,
-  `address` varchar(255) DEFAULT NULL,
+  `address` varchar(255) NOT NULL,
   `STATUS` varchar(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -123,17 +123,17 @@ CREATE TABLE `purchase` (
 --
 
 INSERT INTO `purchase` (`purchaseid`, `AppName`, `customer`, `total`, `date_purchase`, `address`, `STATUS`) VALUES
-(22, 'Zaheb', 'Sara Abdullah', 42, '2023-11-27 13:56:06', NULL, NULL),
-(23, 'Zaheb', 'Abdullah Khalid', 76, '2023-11-27 13:56:53', NULL, NULL),
-(24, 'Ywseel', 'Rahaf Abdulaziz', 66, '2023-11-27 13:57:48', NULL, NULL),
-(25, 'Jaeek', 'Ahmed Mohammed', 159, '2023-11-27 13:58:36', NULL, NULL),
-(26, 'Ywseel', 'Dalal Mohammed', 279, '2023-11-27 13:59:02', NULL, NULL),
-(27, 'Jaeek', 'Layla Fahad', 112, '2023-11-27 14:00:24', NULL, NULL),
-(28, 'Jaeek', 'Anwar Nif', 179, '2023-11-27 14:00:58', NULL, NULL),
-(29, 'Zaheb', 'Nawaf Abdulaziz', 236, '2023-11-27 14:01:37', NULL, NULL),
-(30, 'Ywseel', 'Majed Abdulrahman', 118, '2023-11-27 14:02:22', NULL, NULL),
-(31, 'Zaheb', 'Shaikhha ', 80, '2023-11-27 14:03:04', NULL, NULL),
-(32, 'Ywseel', 'Raneem Alaghafag', 210, '2023-11-27 14:07:09', NULL, NULL);
+(22, 'Zaheb', 'Sara Abdullah', 42, '2023-11-27 13:56:06','Yassmain', NULL),
+(23, 'Zaheb', 'Abdullah Khalid', 76, '2023-11-27 13:56:53','Gadair, NULL),
+(24, 'Ywseel', 'Rahaf Abdulaziz', 66, '2023-11-27 13:57:48',"Alsahafah", NULL),
+(25, 'Jaeek', 'Ahmed Mohammed', 159, '2023-11-27 13:58:36',"Alnarjas", NULL),
+(26, 'Ywseel', 'Dalal Mohammed', 279, '2023-11-27 13:59:02', "Yassmain", NULL),
+(27, 'Jaeek', 'Layla Fahad', 112, '2023-11-27 14:00:24',"Hatten", NULL),
+(28, 'Jaeek', 'Anwar Nif', 179, '2023-11-27 14:00:58', 'Gadair', NULL),
+(29, 'Zaheb', 'Nawaf Abdulaziz', 236, '2023-11-27 14:01:37','Mrsalat', NULL),
+(30, 'Ywseel', 'Majed Abdulrahman', 118, '2023-11-27 14:02:22','Yassmain', NULL),
+(31, 'Zaheb', 'Shaikhha ', 80, '2023-11-27 14:03:04','Alsahafah', NULL),
+(32, 'Ywseel', 'Raneem Alaghafag', 210, '2023-11-27 14:07:09','Hatten', NULL);
 
 -- --------------------------------------------------------
 

@@ -124,7 +124,7 @@ CREATE TABLE `purchase` (
 
 INSERT INTO `purchase` (`purchaseid`, `AppName`, `customer`, `total`, `date_purchase`, `address`, `STATUS`) VALUES
 (22, 'Zaheb', 'Sara Abdullah', 42, '2023-11-27 13:56:06','Yassmain', NULL),
-(23, 'Zaheb', 'Abdullah Khalid', 76, '2023-11-27 13:56:53','Gadair, NULL),
+(23, 'Zaheb', 'Abdullah Khalid', 76, '2023-11-27 13:56:53','Gadair', NULL),
 (24, 'Ywseel', 'Rahaf Abdulaziz', 66, '2023-11-27 13:57:48',"Alsahafah", NULL),
 (25, 'Jaeek', 'Ahmed Mohammed', 159, '2023-11-27 13:58:36',"Alnarjas", NULL),
 (26, 'Ywseel', 'Dalal Mohammed', 279, '2023-11-27 13:59:02', "Yassmain", NULL),
